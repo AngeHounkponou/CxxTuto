@@ -5,12 +5,12 @@ using namespace std;
 
 int main() {
 
-  int lng_suite{0};  // Variable pour stocker le nombre d'itérations
-  vector<int> v_fib{1, 0, 0}; // Vecteur pour manipuler les résultats
+  int lng_suite{0};  // Variable to store number of iterations
+  vector<int> v_fib{1, 0, 0}; // Vector for manipulating results
 
-  // Boucle de contrôle du nombre d'itérations
+  // Loop to control number of iterations
   do {
-    cout << "Entrer la longeur N de la suite Fibonacci (N>0 et N<15): ";
+    cout << "Enter the length N of the Fibonacci sequence ( N>0 et N<15): ";
     cin >> lng_suite;
   } while (lng_suite <= 0 || lng_suite >= 15);
 
@@ -18,10 +18,10 @@ int main() {
     // v_fib[2] = v_fib[0] + v_fib[1]
     v_fib.at(2) = v_fib.at(0) + v_fib.at(1);
 
-    // Afficher le résultat contenu dans v_fib[2]
+    // Display the result contained in v_fib[2]
     cout << v_fib.at(2) << " -> ";
 
-    // Permuter les valeurs du vecteur pour la prochaine itération 
+    // Swap vector values for next iteration
     v_fib.at(1) = v_fib.at(0); // v_fib[1] = v_fib[0]
     v_fib.at(0) = v_fib.at(2); // v_fib[0] = v_fib[2]
   }
