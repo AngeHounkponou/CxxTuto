@@ -28,7 +28,7 @@ int main() {
     if (m_trigger == m_choice) {//If you have chosen the same number as the machine, the game ends.
       m_next = 0;
       cout << "PAN !!! End of the game... Final score = " << m_score << endl;
-    } else {
+    } else {  //Otherwise, the machine choice and score are displayed.
       m_score++;
       cout << "Trigger [" << m_trigger << "] - Congratulations, your score is "
            << m_score <<"."<< endl;
