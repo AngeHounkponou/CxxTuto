@@ -1,5 +1,5 @@
 # CxxTuto
-[Fr] Ce repositories partagent des bouts de code C++ utiles, commentés et réutilisables dans des projets plus gros. 
+[Fr] Ce dépôts partagent des bouts de code C++ utiles, commentés et réutilisables dans des projets plus gros. 
 Les codes ici présentés sont à titre purement éducatif et doivent être modifiés et adaptés aux situations dans lesquelles on cherchera à les utiliser. 
 N’hésitez pas à me dire ce que vous en pensé.
 
